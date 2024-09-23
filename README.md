@@ -1,30 +1,31 @@
-# Sistema de Gerenciamento de Usuários e Perfis
+# Sistema de Gerenciamento de Usuários e Perfis - Backend
 
-Este é um projeto de frontend desenvolvido com **Angular** para gerenciar usuários e seus perfis. A aplicação permite o cadastro de usuários, perfis e a atribuição de perfis aos usuários.
+Este é o backend do sistema de gerenciamento de usuários e perfis, desenvolvido com **Spring Boot**. Ele fornece APIs para criar, editar, listar e deletar usuários e perfis, além de atribuir perfis aos usuários.
 
 ## Funcionalidades
 
-- **Cadastro de Usuários**: Os usuários podem ser cadastrados com nome, senha e perfil associado.
-- **Cadastro de Perfis**: Possibilidade de criar perfis que podem ser atribuídos a vários usuários.
-- **Atribuição de Perfis**: Atribuir perfis previamente cadastrados aos usuários.
-- **Edição e Exclusão de Usuários**: Permite editar e excluir usuários existentes.
+- **Gerenciamento de Usuários**: CRUD (Criar, Ler, Atualizar, Deletar) de usuários.
+- **Gerenciamento de Perfis**: CRUD de perfis.
+- **Atribuição de Perfis a Usuários**: Relaciona um perfil a um usuário.
+- **Autenticação Simples**: Acesso com base em nome de usuário e senha (simples, sem autenticação OAuth ou JWT).
 
 ## Tecnologias Utilizadas
 
-- **Angular** (versão 18.2.0)
-- **Angular Router** para gerenciamento de rotas
-- **FormsModule** para manipulação de formulários
-- **HttpClientModule** para requisições HTTP ao backend
-- **Bootstrap** (opcional) para estilização do layout
+- **Java** (versão 17 ou superior)
+- **Spring Boot** (versão 2.7.x ou superior)
+- **Spring Data JPA** para integração com banco de dados.
+- **Hibernate** para ORM.
+- **Spring Web** para a criação de APIs RESTful.
+- **Maven** como gerenciador de dependências.
 
 ## Requisitos
 
-- **Node.js** (versão mínima 14.x.x)
-- **npm** (gerenciador de pacotes do Node.js)
+- **Java 17+**
+- **Maven 3.6+**
 
 ## Instalação
 
 1. Clone este repositório na sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/nome-do-repositorio-backend.git
